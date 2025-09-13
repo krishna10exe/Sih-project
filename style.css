@@ -35,7 +35,7 @@ nav a {
 
 section {
     color: black;
-    height: 100vh;
+    /* height: 100vh; */
     width: 100%;
 }
 
@@ -239,8 +239,6 @@ section {
     position: absolute;
 }
 
-.features{
-}
 li{
     font-size: large;
     /* padding: 7px; */
@@ -256,6 +254,26 @@ ul{
 }
 .fb1{
     overflow: hidden;
+    color: white;
     /* background: rgb(243, 255, 105); */
-    background-color: #ffee32;
+    background-color: black;
+}
+
+.b1{
+    background-color: var(--tpink);
+    padding-left: 105px;
+    border-radius: 40px 0 0 0;
+}
+.b2{
+    background-color: var(--tpurple);
+    padding-left: 105px;
+    border-radius: 0 0 40px 40px;
+}
+.i1{
+    height: 700px;
+}
+.Dpara{
+    top: 10px;
+    color: var(--tleaf);
+    border-radius: 15px;
 }
